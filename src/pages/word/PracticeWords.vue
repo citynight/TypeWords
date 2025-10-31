@@ -548,7 +548,7 @@ useEvents([
               <div class="word">{{ prevWord.word }}</div>
             </Tooltip>
           </div>
-          <div class="center gap-2 cursor-pointer float-right "
+          <div class="center gap-2 cursor-pointer float-right mr-3"
                @click="next(false)"
                v-if="nextWord">
             <Tooltip
